@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshit's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Akshit">Akshit Ranjith</h1>
+
+          <p class="title">Python developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:akshitmacro@gmail.com" class="contact-link">akshitmacro@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 8850486501" class="contact-link">+91 8850486501</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">January 11, 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Panvel, Maharashtra, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="coming soon.." class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/Akshit91610095" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="/about" class="navbar-link active" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/resume" class="navbar-link" data-nav-link>Resume</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As a content creator and web developer based in India, I specialize in creating functional, user-friendly, and visually appealing websites.
+          </p>
+
+          <p>
+            With a passion for turning complex problems into simple and intuitive designs,
+            I strive to create web experiences that are not only functional, but also aesthetically pleasing. 
+            I have extensive experience in Python programming and have worked on multiple web design projects in the past. 
+            My goal is to create designs that effectively communicate my client's message and identity in a creative and impactful way.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python programming</h4>
+
+                <p class="service-item-text">
+                  I am passionate about Python programming and am currently learning the fundamentals of the language.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  I have honed my skills in web development through various projects that I have worked on. My goal is to create websites that are both functional and visually appealing.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Android Development</h4>
+
+                <p class="service-item-text">
+                  While I am a beginner in Android development, I am eager to learn and would appreciate any tips you might have.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Astronomy</h4>
+
+                <p class="service-item-text">
+                  I am passionate about astronomy and enjoy learning about processing and stacking astronomical images. While I do not own any telescopes or other tools yet, I am eager to explore the universe and discover new celestial objects.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ranjith M K</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    He's good at what he does.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Alona</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nice work, keep it up.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <h3 class="h3 timeline-title">Education</h3>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Primary Education</h4>
+
+              <span>2012 — 2017</span>
+
+              <p class="timeline-text">
+                Studied in K.C.W.A. School, Panvel from 1st to 5th grade.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Secondary Education</h4>
+
+              <span>2017 — Present</span>
+
+              <p class="timeline-text">
+                Currently studying at Bhagyawan High School in 11th grade.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <h3 class="h3 timeline-title">Experience</h3>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Content Creator</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                Started creating content on social media, including YouTube and Instagram.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <h3 class="h3 projects-title">Projects</h3>
+
+          <ul class="projects-list">
+
+            <li class="project-item">
+              <div class="project-box">
+                <img src="./assets/images/project-1.png" alt="project 1" width="300" height="300">
+              </div>
+              <h4 class="h4 project-title">Project 1</h4>
+            </li>
+
+            <li class="project-item">
+              <div class="project-box">
+                <img src="./assets/images/project-2.png" alt="project 2" width="300" height="300">
+              </div>
+              <h4 class="h4 project-title">Project 2</h4>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blogs">
+
+          <h3 class="h3 blogs-title">Recent Posts</h3>
+
+          <ul class="blogs-list">
+
+            <li class="blog-item">
+              <div class="blog-box">
+                <img src="./assets/images/blog-1.png" alt="blog 1" width="300" height="300">
+              </div>
+              <h4 class="h4 blog-title">Blog Post 1</h4>
+            </li>
+
+            <li class="blog-item">
+              <div class="blog-box">
+                <img src="./assets/images/blog-2.png" alt="blog 2" width="300" height="300">
+              </div>
+              <h4 class="h4 blog-title">Blog Post 2</h4>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 contact-form-title">Get in touch</h3>
+
+          <form action="#">
+
+            <div class="form-group">
+              <input type="text" class="form-input" placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+              <input type="email" class="form-input" placeholder="Your Email">
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-input" placeholder="Your Message"></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">Send Message</button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const navLinks = document.querySelectorAll('[data-nav-link]');
+      const mainContent = document.querySelector('.main-content');
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', (event) => {
+          event.preventDefault();
+          const page = link.getAttribute('href').substring(1); // Remove the leading slash
+          history.pushState({ page: page }, page, `/${page}`);
+          showSection(page);
+        });
+      });
+
+      window.addEventListener('popstate', (event) => {
+        if (event.state && event.state.page) {
+          showSection(event.state.page);
+        } else {
+          showSection('about'); // Default section
+        }
+      });
+
+      function showSection(page) {
+        document.querySelectorAll('[data-page]').forEach(section => {
+          section.classList.remove('active');
+          if (section.getAttribute('data-page') === page) {
+            section.classList.add('active');
+          }
+        });
+      }
+
+      // Handle initial load
+      const initialPage = window.location.pathname.substring(1) || 'about'; // Default to 'about' if path is empty
+      showSection(initialPage);
+    });
+  </script>
+
+  <style>
+    [data-page] {
+      display: none;
+    }
+
+    [data-page].active {
+      display: block;
+    }
+  </style>
+
+</body>
+
+</html>
