@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/lavanyaturns18",
-      "destination": "https://happy-birthday-lava.vercel.app/"
-    }
-  ]
-}
