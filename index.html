@@ -778,7 +778,8 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="https://formspree.io/f/xqaqkokj" method="POST" class="form" data-form>
+            
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -792,8 +793,13 @@
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New submission from Portfolio">
 
           </form>
+          <p id="form-status" style="display:none; color: green; margin-top: 1rem;">
+    ✅ Thanks! I'll get back to you soon.
+</p>
 
         </section>
 
