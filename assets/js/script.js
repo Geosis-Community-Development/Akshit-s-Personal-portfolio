@@ -134,6 +134,25 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+  fetch(form.action, {
+    method: "POST",
+    body: formData,
+    headers: { 'Accept': 'application/json' }
+  }).then(response => {
+    if (response.ok) {
+      document.getElementById("form-status").style.display = "block";
+      form.reset();
+      formBtn.setAttribute("disabled", "");
+    } else {
+      alert("Oops! Something went wrong.");
+    }
+  });
+});
+
 
 
 // page navigation variables
